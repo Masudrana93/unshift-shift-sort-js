@@ -31,6 +31,17 @@ console.log(name);
 
 // Sort means organise data from small to large/letter wise in array
 
-let familyName = ['aman', 'clinton', "borhan", 'delowar', '']
+let familyName = ['aman', 'clinton', "borhan", 'delowar', 'abdul'];
 
-abul
+familyName.sort();
+
+console.log(familyName);
+
+
+let familyAge = [14, 12, 8, 20, 5];
+
+familyAge.sort();
+
+console.log(familyAge);
+
+
