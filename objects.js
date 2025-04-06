@@ -65,8 +65,68 @@ var myObjOne = {
     email: 'aklom45@gmail.com',
     location: "Sylhet",
     height: 5.4,
+    isSingle: true,
+    nextObj:{
+        favMovie:"joseph",
+        favFruit: "Mango"
+    
+    }
 }
 delete myObjOne.location;
 
 
 console.log(myObjOne);
+
+
+// data check in object by quarde location []
+
+var myObjOneT = {
+    name : "kalom",
+    'full name' : 'abul kalom',
+    age: 30,
+    email: 'kalom45@gmail.com',
+    location: "Sylhet",
+    height: 5.7,
+    isSingle: true,
+    nextObj:{
+        favMovie:"joseph",
+        favFruit: "Mango"
+    
+    }
+}
+
+console.log(myObjOneT['full name']);
+
+
+var myObjOneTM = {
+    name : "bakalom",
+    age: 20,
+    email: 'bakalom45@gmail.com',
+    location: "Sylhet",
+    height: 5.7,
+    isSingle: true,
+    nextObj:{
+        favMovie:"joseph",
+        favFruit: "Mangos"
+    
+    }
+}
+
+console.log(myObjOneTM.nextObj.favFruit);
+
+// object ke lock kore rakha or kono data change korte na deya
+
+var myObjlock = {
+    name : "bgakalom",
+    age: 70,
+    email: 'bgakalom45@gmail.com',
+    location: "Sylhet",
+    height: 5.7,
+  
+}
+
+Object.freeze(myObjlock);
+
+myObjlock.name = "hasan";
+
+console.log(myObjlock);
