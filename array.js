@@ -38,10 +38,17 @@ familyName.sort();
 console.log(familyName);
 
 
-let familyAge = [14, 12, 8, 20, 5];
+var b = [4, 0, 2, 3, 1, 5];
 
-familyAge.sort();
+b.sort();
 
-console.log(familyAge);
+console.log(b);
+
+var x = [4, 0, 10, 3, 1, 5];
+
+x.sort();
+
+console.log(x);
+
 
 
